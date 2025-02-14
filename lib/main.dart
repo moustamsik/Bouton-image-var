@@ -18,53 +18,7 @@ class MyApp extends StatelessWidget {
           title: Text("Les boutons"),
         ),
         body: Column(
-          children: [
-            // //Text Button
-            // TextButton(
-            //   onPressed: (){print("TextButton");},
-            //   child: Text("Envoyer"),
-            //   style: TextButton.styleFrom(
-            //     foregroundColor: Colors.white,
-            //     backgroundColor: Colors.green,
-            //     shape: RoundedRectangleBorder(
-            //     borderRadius: BorderRadius.circular(10)
-            //     ),
-            //     textStyle: TextStyle(
-            //       fontSize: 40,
-            //     )
-            //   ),
-             
-            // ),
-            //  SizedBox(height: 40,),
-            //  //ElevetedButton
-            //   ElevatedButton(
-            //   onPressed: (){print("ElevatedButton");},
-            //   child: Text("Envoyer"),
-            //   style: ElevatedButton.styleFrom(
-            //     foregroundColor: Colors.white,
-            //     backgroundColor: Colors.green,
-            //     shape: RoundedRectangleBorder(
-            //     borderRadius: BorderRadius.circular(10)
-            //     ),
-            //    padding: EdgeInsets.symmetric(horizontal: 40)
-            //   ),
-             
-            // ),
-            // //IconButton
-            // IconButton(
-            //   onPressed: (){print("IconButton");},
-            //   icon: Icon(Icons.arrow_circle_right),
-            //   iconSize: 60,
-            //   color: Colors.red,
-            // ),
-            // MaterialButton(
-            //   onPressed: (){},
-            //   child: Text("MaterialButton"),
-            //   disabledColor: Colors.grey,
-            //   color: Colors.amber,
-            //   textColor: Colors.white,
-              
-            //   )
+          children: [     
             Expanded(
               flex: 9,
               child: Container(
